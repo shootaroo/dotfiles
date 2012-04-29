@@ -1,0 +1,13 @@
+[ui]
+username = shootaroo <shotaro.tsubouchi@gmail.com>
+[extensions]
+color =
+transplant =
+graphlog =
+rebase =
+mq =
+
+[alias]
+l = log
+lb = log -b
+
