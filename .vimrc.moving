@@ -18,6 +18,11 @@ nmap 9 $
 " insert mode での移動
 inoremap  <C-e> <END>
 inoremap  <C-a> <HOME>
+" インサートモードでもカーソルキーで移動
+imap OA <Up>
+imap OB <Down>
+imap OC <Right>
+imap OD <Left>
 " インサートモードでもhjklで移動（Ctrl押すけどね）
 inoremap <C-j> <Down>
 inoremap <C-k> <Up>
