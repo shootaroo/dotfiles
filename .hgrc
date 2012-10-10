@@ -7,6 +7,9 @@ graphlog =
 rebase =
 mq =
 
+[defaults]
+log = -f
+
 [alias]
 l = log
 lb = log -b
